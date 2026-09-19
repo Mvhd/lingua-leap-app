@@ -90,3 +90,4 @@ From Arabic and Hindi to Spanish and French. We provide **transliterations** for
 ## 📜 License
 This project is for educational and social interaction purposes. All rights reserved.
 # lingua-leap-app
+# lingua-leap-app
