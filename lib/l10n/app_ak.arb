@@ -20,7 +20,7 @@
     "deactivateTopic": "Gyae Adesua",
     "deactivateTopicSubtitle": "Ma wo nkɔsoɔ ngyina na yi eyi fi adesua a ɛkɔ so mu.",
     "areYouSure": "Wo gyidi?",
-    "removeTopicConfirm": "Eyi beyi '{topic}' afi wo adesua din mu. Wubetumi asan de aba bio bere biara.",
+    "removeTopicConfirm": "Eyi beyi '{topic}' afi wo adsua din mu. Wubetumi asan de aba bio bere biara.",
     "deactivate": "Gyae",
     "topicDeactivated": "Woagyae {topic} adesua",
     "maybeLater": "Bia Akyire Yi",
@@ -293,5 +293,25 @@
     "startOver": "FITI ASE FURI MFISEƐ",
     "levelUpSuccess": "Woatu kɔ ipele foforo seesei!",
     "accuracy": "PƐFEE",
-    "points": "NKRASƐM"
+    "points": "NKRASƐM",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

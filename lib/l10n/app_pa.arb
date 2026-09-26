@@ -301,7 +301,7 @@
     "tapProfileToInvite": "ਵੈੱਬ ਵਿੱਚ ਕਿਸੇ ਪ੍ਰੋਫਾਈਲ 'ਤੇ ਟੈਪ ਕਰੋ ਤਾਂ ਜੋ ਉਹਨਾਂ ਨੂੰ ਸੱਦਾ ਦਿੱਤਾ ਜਾ ਸਕੇ।",
     "matchmakingTopicFooter": "ਵਿਸ਼ਾ: {topic} • {strength}",
     "forgotPasswordTitle": "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ?",
-    "forgotPasswordDescription": "ਚਿੰਤਾ ਨਾ ਕਰੋ! ਪਾਸਵਰਡ ਰੀਸੈਟ ਲਿੰਕ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਹੇਠਾਂ ਆਪਣੀ ਈਮੇਲ ਦਰਜ ਕਰੋ।",
+    "forgotPasswordDescription": "ਚਿੰਤਾ ਨਾ ਕਰੋ! ਪਾਸਵਰਡ ਰੀਸੈਟ ਲਿੰਕ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਹੇਠਾਂ ਆਪਣੀ ਇਮੇਲ ਦਰਜ ਕਰੋ।",
     "sendResetLink": "ਰੀਸੈਟ ਲਿੰਕ ਭੇਜੋ",
     "backToLogin": "‹ ਲੌਗਇਨ 'ਤੇ ਵਾਪਸ ਜਾਓ",
     "userProfileTitle": "ਉਪਭੋਗਤਾ ਪ੍ਰੋਫਾਈਲ",
@@ -379,5 +379,25 @@
     "purchaseStatus": "ਖਰੀਦ ਸਥਿਤੀ",
     "purchaseSuccessful": "ਖਰੀਦ ਸਫਲ ਰਹੀ!",
     "selectLanguages": "ਭਾਸ਼ਾਵਾਂ ਚੁਣੋ",
-    "errorLoadingGameState": "ਗੇਮ ਸਥਿਤੀ ਲੋਡ ਕਰਨ ਵਿੱਚ ਗਲਤੀ।"
+    "errorLoadingGameState": "ਐਰਰ ਲੋਡਿੰਗ ਗੇਮ ਸਟੇਟ।",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

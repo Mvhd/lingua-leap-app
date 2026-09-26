@@ -253,7 +253,7 @@
     "questionCountIndicator": "Vraag {count} van 10",
     "globalMatchmakingTitle": "Wereldwijde matchmaking",
     "opponentFound": "Tegenstander gevonden!",
-    "challengeReceived": "Uitdaging ontvangen!",
+    "challengeReceived": "Uitdagigng ontvangen!",
     "waitingForResponse": "Wachten op antwoord...",
     "waitingForOpponentToAccept": "Wachten tot {name} accepteert...",
     "opponentWaitingForYou": "{name} wacht op jou...",
@@ -342,5 +342,25 @@
     "purchaseStatus": "Aankoopstatus",
     "purchaseSuccessful": "Aankoop succesvol!",
     "selectLanguages": "Talen selecteren",
-    "errorLoadingGameState": "Fout bij het laden van de spelstatus."
+    "errorLoadingGameState": "Fout bij het laden van de spelstatus.",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

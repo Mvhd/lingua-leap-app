@@ -293,5 +293,25 @@
     "startOver": "फिर से शुरू करें",
     "levelUpSuccess": "आपने अभी-अभी अपने कौशल को उन्नत किया है!",
     "accuracy": "सटीकता",
-    "points": "अंक"
+    "points": "अंक",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

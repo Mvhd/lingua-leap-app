@@ -255,7 +255,7 @@
     "opponentFound": "Adversarius Inventus!",
     "challengeReceived": "Provocatio Accepta!",
     "waitingForResponse": "Expectans Responsum...",
-    "waitingForOpponentToAccept": "Expectans ut {name} accipiat...",
+    "waitingForOpponentToAccept": "Expectans ut {name} accipiatur...",
     "opponentWaitingForYou": "{name} te expectat...",
     "you": "Tu",
     "opponent": "Adversarius",
@@ -312,11 +312,11 @@
     "topicNameHint": "e.g., Colloquium Negotii in Cafe",
     "exploreSuggestions": "HWEHWƐ NEA YƐKAMFO",
     "searchTopics": "Quaere argumenta...",
-    "createTopicButton": "CREA ARGUMENTUM",
+    "createTopicButton": "TÉMA LÉTREHOZÁSA",
     "pleaseEnterTopicName": "Quaeso scribe nomen argumenti.",
     "topicCreatedSuccess": "Argumentum '{topic}' feliciter creatum!",
     "failedToCreateTopic": "Argumentum creari non potuit.",
-    "topicSelected": "'{topic}' selectum!",
+    "topicSelected": "Argumentum '{topic}' selectum!",
     "alreadyStudyingTopic": "Iam studes '{topic}'. Quid facere vis?",
     "notifications": "Admonitiones",
     "markAllAsRead": "Lecta omnia",
@@ -342,5 +342,25 @@
     "purchaseStatus": "Status Emptionis",
     "purchaseSuccessful": "Emptio felix!",
     "selectLanguages": "Elige Linguas",
-    "errorLoadingGameState": "Error in legendo statu ludi."
+    "errorLoadingGameState": "Error in legendo statu ludi.",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

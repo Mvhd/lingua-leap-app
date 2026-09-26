@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lingua_leap/features/auth/services/user_service.dart';
@@ -8,7 +10,6 @@ import 'package:lingua_leap/models/question_model.dart';
 import 'package:lingua_leap/models/topic_model.dart';
 import 'package:shadcn_ui/shadcn_ui.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
-
 import '../../../../app/theme/theme.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../../../models/language_strength.dart';
@@ -32,13 +33,14 @@ class LessonClassScreen extends StatefulWidget {
   State<LessonClassScreen> createState() => _LessonClassScreenState();
 }
 
-class _LessonClassScreenState extends State<LessonClassScreen> {
+class _LessonClassScreenState extends State<LessonClassScreen> with SingleTickerProviderStateMixin {
   final LearningService _learningService = LearningService();
   final UserService _userService = UserService();
   final LanguageService _languageService = LanguageService();
   late final TextToSpeechService _ttsService = TextToSpeechService(languageService: _languageService);
 
   late Future<List<QuestionModel>> _studyMaterialFuture;
+  late AnimationController _pulseController;
   int _currentIndex = 0;
   bool _showTranslation = false;
   UserModel? _currentUser;
@@ -47,24 +49,61 @@ class _LessonClassScreenState extends State<LessonClassScreen> {
   @override
   void initState() {
     super.initState();
+    _pulseController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 200),
+      lowerBound: 1.0,
+      upperBound: 1.3,
+    );
     _studyMaterialFuture = _fetchStudyMaterial();
   }
 
+  @override
+  void dispose() {
+    _pulseController.dispose();
+    super.dispose();
+  }
+
   Future<List<QuestionModel>> _fetchStudyMaterial() async {
-    final uid = FirebaseAuth.instance.currentUser?.uid;
-    if (uid != null) {
-      final user = await _userService.getUserProfile(uid);
-      if (mounted) setState(() => _currentUser = user);
+    try {
+      final uid = FirebaseAuth.instance.currentUser?.uid;
+      if (uid != null) {
+        final user = await _userService.getUserProfile(uid);
+        if (mounted) setState(() => _currentUser = user);
+      }
+      
+      final strength = _currentUser?.languageStrength ?? LanguageStrength.beginner;
+      final questions = await _learningService.getQuizQuestions(widget.topicId, widget.lesson.id, strength);
+      
+      // Randomize and limit to 10
+      questions.shuffle(Random());
+      final limitedQuestions = questions.take(10).toList();
+
+      for (int i = 0; i < limitedQuestions.length; i++) {
+        final q = limitedQuestions[i];
+        final nativeWordInQuotes = _extractQuotedText(q.questionText);
+        
+        limitedQuestions[i] = QuestionModel(
+          id: q.id,
+          questionText: nativeWordInQuotes, // Holds NATIVE word extracted from question
+          originalQuestionText: q.questionText,
+          options: q.options,
+          correctAnswer: q.correctAnswer, // Holds TARGET word
+          transliterateCorrectAnswer: q.transliterateCorrectAnswer, // Carry over transliteration
+          strength: q.strength,
+        );
+      }
+      
+      _studyItems = limitedQuestions;
+      return limitedQuestions;
+    } catch (e) {
+      debugPrint("CLASS ERROR: $e");
+      rethrow;
     }
-    
-    final strength = _currentUser?.languageStrength ?? LanguageStrength.beginner;
-    final questions = await _learningService.getQuizQuestions(widget.topicId, widget.lesson.id, strength);
-    
-    _studyItems = questions;
-    return questions;
   }
 
   void _speak(String text) async {
+    _pulseController.forward().then((_) => _pulseController.reverse());
     await _ttsService.speak(text, widget.lesson.language);
   }
 
@@ -89,12 +128,20 @@ class _LessonClassScreenState extends State<LessonClassScreen> {
     }
   }
 
+  String _extractQuotedText(String text) {
+    final regex = RegExp(r'''([""])(.*?)\1''');
+    final match = regex.firstMatch(text);
+    return match?.group(2) ?? text;
+  }
+
   void _showCompletionDialog() {
     final l10n = AppLocalizations.of(context)!;
     showShadDialog(
       context: context,
       builder: (context) => ShadDialog(
+        constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width * 0.8),
         title: Text(l10n.classCompleted),
+        removeBorderRadiusWhenTiny: false,
         description: Text(l10n.classCompletedDesc),
         actions: [
           ShadButton.outline(
@@ -141,7 +188,11 @@ class _LessonClassScreenState extends State<LessonClassScreen> {
             return const Center(child: CircularProgressIndicator(color: AppTheme.accentColor));
           }
 
-          if (snapshot.hasError || !snapshot.hasData || snapshot.data!.isEmpty) {
+          if (snapshot.hasError) {
+            return Center(child: Text("Error: ${snapshot.error}"));
+          }
+
+          if (!snapshot.hasData || snapshot.data!.isEmpty) {
             return Center(child: Text(l10n.noQuestionsYet));
           }
 
@@ -202,10 +253,15 @@ class _LessonClassScreenState extends State<LessonClassScreen> {
                                 padding: const EdgeInsets.all(32),
                                 child: Column(
                                   children: [
-                                    const Icon(LucideIcons.volume2, size: 48, color: AppTheme.accentColor),
+                                    ScaleTransition(
+                                      scale: _pulseController,
+                                      child: const Icon(LucideIcons.volume2, size: 48, color: AppTheme.accentColor),
+                                    ),
                                     const SizedBox(height: 24),
                                     Text(
-                                      currentItem.correctAnswer,
+                                      currentItem.transliterateCorrectAnswer != null
+                                          ? "${currentItem.correctAnswer} (${currentItem.transliterateCorrectAnswer})"
+                                          : currentItem.correctAnswer, // Display Target Language word on top with transliteration
                                       textAlign: TextAlign.center,
                                       style: theme.textTheme.h2.copyWith(fontWeight: FontWeight.w900),
                                     ),
@@ -224,10 +280,12 @@ class _LessonClassScreenState extends State<LessonClassScreen> {
                                 width: double.infinity,
                                 padding: const EdgeInsets.all(24),
                                 backgroundColor: theme.colorScheme.accent.withValues(alpha: 0.1),
-                                child: Text(
-                                  currentItem.questionText,
-                                  textAlign: TextAlign.center,
-                                  style: theme.textTheme.h4.copyWith(fontStyle: FontStyle.italic),
+                                child: Center(
+                                  child: Text(
+                                    currentItem.questionText, // Display Native Language translation here
+                                    textAlign: TextAlign.center,
+                                    style: theme.textTheme.h4.copyWith(fontStyle: FontStyle.italic),
+                                  ),
                                 ),
                               )
                             else
@@ -254,29 +312,38 @@ class _LessonClassScreenState extends State<LessonClassScreen> {
                     ),
                   ],
                 ),
-                child: Row(
-                  children: [
-                    if (_currentIndex > 0)
+                child: SafeArea(
+                  top: false,
+                  child: Row(
+                    children: [
+                      if (_currentIndex > 0)
+                        Expanded(
+                          child: ShadButton.outline(
+                            onPressed: _previous,
+                            child: FittedBox(
+                              fit: BoxFit.scaleDown,
+                              child: Text(l10n.previousPhrase),
+                            ),
+                          ),
+                        ),
+                      if (_currentIndex > 0) const SizedBox(width: 16),
                       Expanded(
-                        child: ShadButton.outline(
-                          onPressed: _previous,
-                          child: Text(l10n.previousPhrase),
+                        child: ShadButton(
+                          onPressed: _next,
+                          child: FittedBox(
+                            fit: BoxFit.scaleDown,
+                            child: Text(
+                              _currentIndex < items.length - 1 ? l10n.nextPhrase : l10n.completeClass,
+                              style: const TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                          ),
                         ),
                       ),
-                    if (_currentIndex > 0) const SizedBox(width: 16),
-                    Expanded(
-                      flex: 2,
-                      child: ShadButton(
-                        onPressed: _next,
-                        child: Text(
-                          _currentIndex < items.length - 1 ? l10n.nextPhrase : l10n.completeClass,
-                          style: const TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                      ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
+              const SizedBox(height: 32),
             ],
           );
         },

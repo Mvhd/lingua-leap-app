@@ -226,7 +226,7 @@
     "listening": "Слухаю...",
     "analyzing": "Аналіз...",
     "correct": "ВІРНО!",
-    "incorrect": "НЕВІРНО",
+    "incorrect": "НЕВЕРНО",
     "pointsAdded": "+10 очок",
     "congratulations": "ВІТАЄМО!",
     "gameOver": "ГРУ ЗАКІНЧЕНО",
@@ -284,12 +284,12 @@
     "noQuestionsFoundDescription": "Ми не знайшли питань для вашого поточного рівня. Натисніть нижче, щоб згенерувати новий контент!",
     "generateContent": "ГЕНЕРУВАТИ КОНТЕНТ",
     "questionProgress": "ПИТАННЯ {index} ІЗ {total}",
-    "continueLabel": "ПРОДОВЖИТИ",
+    "continueLabel": "ПРОДОЛЖИТИ",
     "checkAnswer": "ПЕРЕВІРИТИ ВІДПОВІДЬ",
     "gotItLabel": "ЗРОЗУМІЛО",
     "correctAnswerLabel": "Правильна відповідь: {answer}",
     "resumeQuizDescription": "Ми зберегли ваш прогрес для уроку {lesson}. Бажаєте продовжити чи почати заново?",
-    "continueQuiz": "ПРОДОВЖИТИ ТЕСТ",
+    "continueQuiz": "ПРОДОЛЖИТИ ТЕСТ",
     "startOver": "ПОЧАТИ ЗАНОВО",
     "levelUpSuccess": "Ви щойно підвищили свої навички!",
     "accuracy": "ТОЧНІСТЬ",
@@ -342,5 +342,25 @@
     "purchaseStatus": "Статус покупки",
     "purchaseSuccessful": "Покупка пройшла успішно!",
     "selectLanguages": "Вибрати мови",
-    "errorLoadingGameState": "Помилка при завантаженні стану гри."
+    "errorLoadingGameState": "Помилка при завантаженні стану гри.",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

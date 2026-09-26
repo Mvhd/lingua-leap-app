@@ -92,7 +92,7 @@
     "enterGroupCode": "Inserir Código do Grupo",
     "joinGroupSuccess": "Entrou no grupo com sucesso!",
     "noGroupsJoined": "Você ainda não está em nenhum grupo.\nCrie um para começar!",
-    "newGroup": "NOVO GRUPO",
+    "newGroup": "NOVO GRUPPO",
     "pendingInvitations": "Convites Pendentes ({count})",
     "languageLabelWithParam": "Idioma: {language}",
     "decline": "Recusar",
@@ -293,5 +293,25 @@
     "startOver": "COMEÇAR DE NOVO",
     "levelUpSuccess": "Você acabou de subir de nível!",
     "accuracy": "PRECISÃO",
-    "points": "PONTOS"
+    "points": "PONTOS",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

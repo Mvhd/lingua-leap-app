@@ -307,7 +307,7 @@
     "groups": "Grupy",
     "profile": "Profil",
     "createNewTopic": "Utwórz nowy temat",
-    "customLearning": "Niestandardowa nauka",
+    "customLearning": "Iindywidualne nauczanie",
     "customLearningSubtitle": "Wpisz temat, który chcesz opanować, lub wybierz jedną z naszych zweryfikowanych sugestii poniżej.",
     "topicNameHint": "np. Biznesowe rozmowy przy kawie",
     "exploreSuggestions": "ODKRYWAJ SUGESTIE",
@@ -342,5 +342,25 @@
     "purchaseStatus": "Status zakupu",
     "purchaseSuccessful": "Zakup zakończony pomyślnie!",
     "selectLanguages": "Wybierz języki",
-    "errorLoadingGameState": "Błąd podczas ładowania stanu gry."
+    "errorLoadingGameState": "Błąd podczas ładowania stanu gry.",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

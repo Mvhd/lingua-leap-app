@@ -4,302 +4,9 @@ import 'app_localizations.dart';
 
 // ignore_for_file: type=lint
 
-/// The translations for Punjabi (`pa`).
+/// The translations for Panjabi Punjabi (`pa`).
 class AppLocalizationsPa extends AppLocalizations {
   AppLocalizationsPa([String locale = 'pa']) : super(locale);
-
-  @override
-  String get topicNameLabel => 'ਵਿਸ਼ੇ ਦਾ ਨਾਮ';
-
-  @override
-  String get learningGoalLabel => 'ਸਿੱਖਣ ਦਾ ਟੀਚਾ';
-
-  @override
-  String get learningGoalHint => 'ਜਿਵੇਂ ਕਿ ਦਫ਼ਤਰੀ ਗੱਲਬਾਤ ਵਿੱਚ ਮੁਹਾਰਤ ਹਾਸਲ ਕਰੋ';
-
-  @override
-  String get pleaseEnterLearningGoal => 'ਕਿਰਪਾ ਕਰਕੇ ਸਿੱਖਣ ਦਾ ਟੀਚਾ ਦਰਜ ਕਰੋ।';
-
-  @override
-  String get learningGoalTooLong =>
-      'ਸਿੱਖਣ ਦਾ ਟੀਚਾ 50 ਅੱਖਰਾਂ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ।';
-
-  @override
-  String get searchTopics => 'ਵਿਸ਼ੇ ਖੋਜੋ...';
-
-  @override
-  String get exploreSuggestions => 'ਸੁਝਾਵਾਂ ਦੀ ਖੋਜ ਕਰੋ';
-
-  @override
-  String get shoppingGroceriesTitle => 'ਖਰੀਦਦਾਰੀ ਅਤੇ ਕਰਿਆਨਾ';
-
-  @override
-  String get shoppingGroceriesSubtitle => 'ਕੀਮਤਾਂ, ਆਮ ਚੀਜ਼ਾਂ ਬਾਰੇ ਪੁੱਛਣਾ।';
-
-  @override
-  String get restaurantDiningTitle => 'ਰੈਸਟੋਰੈਂਟ ਅਤੇ ਡਾਇਨਿੰਗ';
-
-  @override
-  String get restaurantDiningSubtitle => 'ਭੋਜਨ ਦਾ ਆਰਡਰ ਦੇਣਾ, ਸਟਾਫ ਨਾਲ ਗੱਲ ਕਰਨਾ।';
-
-  @override
-  String get drivingTrafficTitle => 'ਡਰਾਈਵਿੰਗ ਅਤੇ ਟ੍ਰੈਫਿਕ';
-
-  @override
-  String get drivingTrafficSubtitle =>
-      'ਟ੍ਰੈਫਿਕ ਸੰਕੇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰਦੇ ਹੋਏ ਵਾਹਨ ਚਲਾਉਣਾ।';
-
-  @override
-  String get atAirportTitle => 'ਹਵਾਈ ਅੱਡੇ \'ਤੇ';
-
-  @override
-  String get atAirportSubtitle => 'ਚੈੱਕ-ਇਨ, ਬੋਰਡਿੰਗ, ਕਸਟਮ।';
-
-  @override
-  String get weddingsEventsTitle => 'ਵਿਆਹ ਅਤੇ ਸਮਾਗਮ';
-
-  @override
-  String get weddingsEventsSubtitle => 'ਵਿਆਹਾਂ, ਪਾਰਟੀਆਂ ਅਤੇ ਸਮਾਗਮਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣਾ।';
-
-  @override
-  String get meetingNewPeopleTitle => 'ਨਵੇਂ ਲੋਕਾਂ ਨੂੰ ਮਿਲਣਾ';
-
-  @override
-  String get meetingNewPeopleSubtitle => 'ਜਾਣ-ਪਛਾਣ, ਸ਼ੁਭਕਾਮਨਾਵਾਂ, ਗੱਲਬਾਤ।';
-
-  @override
-  String get bankingFinanceTitle => 'ਬੈਂਕਿੰਗ ਅਤੇ ਵਿੱਤ';
-
-  @override
-  String get bankingFinanceSubtitle => 'ਮਨੀ ਮਾਰਕੀਟ, ਚੈਕਿੰਗ, ਕ੍ਰੈਡਿਟ ਅਤੇ ਡੈਬਿਟ';
-
-  @override
-  String get insuranceServicesTitle => 'ਬੀਮਾ ਅਤੇ ਸੇਵਾਵਾਂ';
-
-  @override
-  String get insuranceServicesSubtitle => 'ਬੀਮਾ ਪਾਲਿਸੀਆਂ ਅਤੇ ਪ੍ਰੀਮੀਅਮ';
-
-  @override
-  String get healthFitnessTitle => 'ਸਿਹਤ ਅਤੇ ਫਿਟਨੈਸ';
-
-  @override
-  String get healthFitnessSubtitle => 'ਡਾਕਟਰੀ ਮੁਲਾਕਾਤਾਂ, ਕਸਰਤ ਰੁਟੀਨ';
-
-  @override
-  String get emergencyServicesTitle => 'ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ';
-
-  @override
-  String get emergencyServicesSubtitle => 'ਐਂਬੂਲੈਂਸ, ਅੱਗ, ਪੁਲਿਸ';
-
-  @override
-  String get familyFriendsTitle => 'ਪਰਿਵਾਰ ਅਤੇ ਦੋਸਤ';
-
-  @override
-  String get familyFriendsSubtitle => 'ਆਪਣੇ ਪਿਆਰਿਆਂ ਦਾ ਵਰਣਨ ਕਰੋ';
-
-  @override
-  String get foodDiningTitle => 'ਭੋਜਨ ਅਤੇ ਡਾਇਨਿੰਗ';
-
-  @override
-  String get foodDiningSubtitle => 'ਆਪਣੇ ਮਨਪਸੰਦ ਭੋਜਨ ਦਾ ਆਰਡਰ ਦਿਓ';
-
-  @override
-  String get greetingsMannersTitle => 'ਸ਼ੁਭਕਾਮਨਾਵਾਂ ਅਤੇ ਸ਼ਿਸ਼ਟਾਚਾਰ';
-
-  @override
-  String get greetingsMannersSubtitle => 'ਹੈਲੋ ਕਹਿਣਾ ਸਿੱਖੋ';
-
-  @override
-  String get schoolEducationTitle => 'ਸਕੂਲ ਅਤੇ ਸਿੱਖਿਆ';
-
-  @override
-  String get schoolEducationSubtitle => 'ਸਿੱਖਿਆ, ਸਕੂਲ ਜਾਣਾ ਅਤੇ ਸਿੱਖਣਾ';
-
-  @override
-  String get travelDirectionsTitle => 'ਯਾਤਰਾ ਅਤੇ ਦਿਸ਼ਾਵਾਂ';
-
-  @override
-  String get travelDirectionsSubtitle => 'ਦਿਸ਼ਾਵਾਂ ਬਾਰੇ ਪੁੱਛੋ';
-
-  @override
-  String get alreadyStudying => 'ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਇਸਦਾ ਅਧਿਐਨ ਕਰ ਰਹੇ ਹੋ';
-
-  @override
-  String get howToProceed => 'ਤੁਸੀਂ ਕਿਵੇਂ ਅੱਗੇ ਵਧਣਾ ਚਾਹੋਗੇ?';
-
-  @override
-  String get pleaseEnterTopicName => 'ਕਿਰਪਾ ਕਰਕੇ ਵਿਸ਼ੇ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ।';
-
-  @override
-  String get dailyLife => 'ਰੋਜ਼ਾਨਾ ਜੀਵਨ';
-
-  @override
-  String get travel => 'ਯਾਤਰਾ';
-
-  @override
-  String get social => 'ਸਮਾਜਿਕ';
-
-  @override
-  String get finance => 'ਵਿੱਤ';
-
-  @override
-  String get health => 'ਸਿਹਤ';
-
-  @override
-  String get customLearning => 'ਕਸਟਮ ਲਰਨਿੰਗ';
-
-  @override
-  String get customLearningSubtitle =>
-      'ਕੋਈ ਵਿਸ਼ਾ ਦਰਜ ਕਰੋ ਜਿਸ ਵਿੱਚ ਤੁਸੀਂ ਮੁਹਾਰਤ ਹਾਸਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਜਾਂ ਹੇਠਾਂ ਸਾਡੇ ਪ੍ਰਮਾਣਿਤ ਸੁਝਾਵਾਂ ਵਿੱਚੋਂ ਇੱਕ ਚੁਣੋ।';
-
-  @override
-  String get topicNameHint => 'ਜਿਵੇਂ ਕਿ, ਵਪਾਰਕ ਕੌਫੀ ਟਾਕ';
-
-  @override
-  String get createTopicButton => 'ਵਿਸ਼ਾ ਬਣਾਓ';
-
-  @override
-  String get failedToCreateTopic => 'ਵਿਸ਼ਾ ਬਣਾਉਣ ਵਿੱਚ ਅਸਫਲ।';
-
-  @override
-  String get notifications => 'ਨੋਟੀਫਿਕੇਸ਼ਨ';
-
-  @override
-  String get markAllAsRead => 'ਸਾਰੇ ਪੜ੍ਹੇ ਵਜੋਂ ਮਾਰਕ ਕਰੋ';
-
-  @override
-  String get noNotificationsYet => 'ਅਜੇ ਤੱਕ ਕੋਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਨਹੀਂ ਹੈ';
-
-  @override
-  String get noMissedTopics => 'ਕੋਈ ਛੁੱਟੇ ਹੋਏ ਵਿਸ਼ੇ ਨਹੀਂ ਹਨ';
-
-  @override
-  String get today => 'ਅੱਜ';
-
-  @override
-  String get yesterday => 'ਕੱਲ੍ਹ';
-
-  @override
-  String get newMessage => 'ਨਵਾਂ ਸੁਨੇਹਾ';
-
-  @override
-  String get groupInvitation => 'ਸਮੂਹ ਸੱਦਾ';
-
-  @override
-  String get gameChallenge => 'ਗੇਮ ਚੁਣੌਤੀ';
-
-  @override
-  String get dailyPractice => 'ਰੋਜ਼ਾਨਾ ਅਭਿਆਸ';
-
-  @override
-  String get systemAlert => 'ਸਿਸਟਮ ਅਲਰਟ';
-
-  @override
-  String get noTopicsFound => 'ਅਜੇ ਤੱਕ ਕੋਈ ਵਿਸ਼ਾ ਨਹੀਂ ਮਿਲਿਆ';
-
-  @override
-  String get copiedToClipboard => 'ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਕੀਤਾ ਗਿਆ!';
-
-  @override
-  String get goPremium => 'ਪ੍ਰੀਮੀਅਮ \'ਤੇ ਜਾਓ';
-
-  @override
-  String get billingUnavailable =>
-      'ਬਿਲਿੰਗ ਸੇਵਾਵਾਂ ਇਸ ਸਮੇਂ ਉਪਲਬਧ ਨਹੀਂ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਸੀਂ purchase_service.dart ਵਿੱਚ ਆਪਣੀਆਂ RevenueCat API ਕੁੰਜੀਆਂ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਹਨ।';
-
-  @override
-  String get purchaseStatus => 'ਖਰੀਦ ਸਥਿਤੀ';
-
-  @override
-  String get purchaseSuccessful => 'ਖਰੀਦ ਸਫਲ ਰਹੀ!';
-
-  @override
-  String get selectLanguages => 'ਭਾਸ਼ਾਵਾਂ ਚੁਣੋ';
-
-  @override
-  String get errorLoadingGameState => 'ਗੇਮ ਸਥਿਤੀ ਲੋਡ ਕਰਨ ਵਿੱਚ ਗਲਤੀ।';
-
-  @override
-  String resumeQuizDescription(String lesson) {
-    return 'ਅਸੀਂ $lesson ਲਈ ਤੁਹਾਡੀ ਪ੍ਰਗਤੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰ ਲਿਆ ਹੈ। ਕੀ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ ਜਾਂ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?';
-  }
-
-  @override
-  String get continueQuiz => 'ਕੁਇਜ਼ ਜਾਰੀ ਰੱਖੋ';
-
-  @override
-  String get startOver => 'ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ';
-
-  @override
-  String get levelUpSuccess => 'ਤੁਸੀਂ ਹੁਣੇ ਹੀ ਆਪਣੇ ਹੁਨਰ ਦਾ ਪੱਧਰ ਵਧਾਇਆ ਹੈ!';
-
-  @override
-  String get accuracy => 'ਸ਼ੁੱਧਤਾ';
-
-  @override
-  String get points => 'ਅੰਕ';
-
-  @override
-  String get onboardingTitle1 => 'ਆਪਣਾ ਤਰੀਕਾ ਸਿੱਖੋ';
-
-  @override
-  String get onboardingDesc1 =>
-      'Master new languages with interactive solo quizzes and personalized lesson plans.';
-
-  @override
-  String get onboardingTitle2 => 'Master new languages with interactive solo quizzes and personalized lesson plans.';
-
-  @override
-  String get onboardingDesc2 =>
-      'Master new languages with interactive solo quizzes and personalized lesson plans.';
-
-  @override
-  String get onboardingTitle3 => 'Master new languages with interactive solo quizzes and personalized lesson plans.';
-
-  @override
-  String get onboardingDesc3 =>
-      'Master new languages with interactive solo quizzes and personalized lesson plans.';
-
-  @override
-  String get skip => 'ਛੱਡੋ';
-
-  @override
-  String get done => 'ਹੋ ਗਿਆ';
-
-  @override
-  String get next => 'ਅਗਲਾ';
-
-  @override
-  String get home => 'ਹੋਮ';
-
-  @override
-  String get groups => 'ਸਮੂਹ';
-
-  @override
-  String get profile => 'ਪ੍ਰੋਫਾਈਲ';
-
-  @override
-  String get createNewTopic => 'ਨਵਾਂ ਵਿਸ਼ਾ ਬਣਾਓ';
-
-  @override
-  String topicCreatedSuccess(String topic) {
-    return 'ਵਿਸ਼ਾ \'$topic\' ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਇਆ ਗਿਆ!';
-  }
-
-  @override
-  String topicSelected(String topic) {
-    return '\'$topic\' ਚੁਣਿਆ ਗਿਆ!';
-  }
-
-  @override
-  String alreadyStudyingTopic(String topic) {
-    return 'ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ \'$topic\' ਦਾ ਅਧਿਐਨ ਕਰ ਰਹੇ ਹੋ। ਤੁਸੀਂ ਕਿਵੇਂ ਅੱਗੇ ਵਧਣਾ ਚਾਹੋਗੇ?';
-  }
-
-  @override
-  String couldNotSaveMessage(String error) {
-    return 'ਸੁਨੇਹਾ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: $error';
-  }
 
   @override
   String get welcomeBack => 'ਜੀ ਆਇਆਂ ਨੂੰ!';
@@ -337,6 +44,10 @@ class AppLocalizationsPa extends AppLocalizations {
   @override
   String get freeUserLevelLock =>
       'ਮੁਫਤ ਉਪਭੋਗਤਾ ਸਿਰਫ ਸ਼ੁਰੂਆਤੀ ਪੱਧਰ ਤੱਕ ਹੀ ਸੀਮਿਤ ਹਨ। ਉੱਚ ਮੁਸ਼ਕਲ ਲਈ ਪ੍ਰੀਮੀਅਮ ਵਿੱਚ ਅਪਗ੍ਰੇਡ ਕਰੋ!';
+
+  @override
+  String get freeUserLanguageLimit =>
+      'Free users are limited to one language. Upgrade to Premium for unlimited languages!';
 
   @override
   String get upgradeToPremium => 'ਪ੍ਰੀਮੀਅਮ ਵਿੱਚ ਅਪਗ੍ਰੇਡ ਕਰੋ';
@@ -427,6 +138,105 @@ class AppLocalizationsPa extends AppLocalizations {
 
   @override
   String get newTopic => 'ਵਿਸ਼ਾ ਜੋੜੋ';
+
+  @override
+  String get alreadyStudying => 'ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਇਸਦਾ ਅਧਿਐਨ ਕਰ ਰਹੇ ਹੋ';
+
+  @override
+  String get howToProceed => 'ਤੁਸੀਂ ਕਿਵੇਂ ਅੱਗੇ ਵਧਣਾ ਚਾਹੋਗੇ?';
+
+  @override
+  String get shoppingGroceriesTitle => 'ਖਰੀਦਦਾਰੀ ਅਤੇ ਕਰਿਆਨਾ';
+
+  @override
+  String get shoppingGroceriesSubtitle => 'ਕੀਮਤਾਂ, ਆਮ ਚੀਜ਼ਾਂ ਬਾਰੇ ਪੁੱਛਣਾ।';
+
+  @override
+  String get restaurantDiningTitle => 'ਰੈਸਟੋਰੈਂਟ ਅਤੇ ਡਾਇਨਿੰਗ';
+
+  @override
+  String get restaurantDiningSubtitle =>
+      'ਭੋਜਨ ਦਾ ਆਰਡਰ ਦੇਣਾ, ਸਟਾਫ ਨਾਲ ਗੱਲ ਕਰਨਾ।';
+
+  @override
+  String get drivingTrafficTitle => 'ਡਰਾਈਵਿੰਗ ਅਤੇ ਟ੍ਰੈਫਿਕ';
+
+  @override
+  String get drivingTrafficSubtitle =>
+      'ਟ੍ਰੈਫਿਕ ਸੰਕੇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰਦੇ ਹੋਏ ਵਾਹਨ ਚਲਾਉਣਾ।';
+
+  @override
+  String get atAirportTitle => 'ਹਵਾਈ ਅੱਡੇ \'ਤੇ';
+
+  @override
+  String get atAirportSubtitle => 'ਚੈੱਕ-ਇਨ, ਬੋਰਡਿੰਗ, ਕਸਟਮ।';
+
+  @override
+  String get weddingsEventsTitle => 'ਵਿਆਹ ਅਤੇ ਸਮਾਗਮ';
+
+  @override
+  String get weddingsEventsSubtitle =>
+      'ਵਿਆਹਾਂ, ਪਾਰਟੀਆਂ ਅਤੇ ਸਮਾਗਮਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣਾ।';
+
+  @override
+  String get meetingNewPeopleTitle => 'ਨਵੇਂ ਲੋਕਾਂ ਨੂੰ ਮਿਲਣਾ';
+
+  @override
+  String get meetingNewPeopleSubtitle => 'ਜਾਣ-ਪਛਾਣ, ਸ਼ੁਭਕਾਮਨਾਵਾਂ, ਗੱਲਬਾਤ।';
+
+  @override
+  String get bankingFinanceTitle => 'ਬੈਂਕਿੰਗ ਅਤੇ ਵਿੱਤ';
+
+  @override
+  String get bankingFinanceSubtitle => 'ਮਨੀ ਮਾਰਕੀਟ, ਚੈਕਿੰਗ, ਕ੍ਰੈਡਿਟ ਅਤੇ ਡੈਬਿਟ';
+
+  @override
+  String get insuranceServicesTitle => 'ਬੀਮਾ ਅਤੇ ਸੇਵਾਵਾਂ';
+
+  @override
+  String get insuranceServicesSubtitle => 'ਬੀਮਾ ਪਾਲਿਸੀਆਂ ਅਤੇ ਪ੍ਰੀਮੀਅਮ';
+
+  @override
+  String get healthFitnessTitle => 'ਸਿਹਤ ਅਤੇ ਫਿਟਨੈਸ';
+
+  @override
+  String get healthFitnessSubtitle => 'ਡਾਕਟਰੀ ਮੁਲਾਕਾਤਾਂ, ਕਸਰਤ ਰੁਟੀਨ';
+
+  @override
+  String get emergencyServicesTitle => 'ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ';
+
+  @override
+  String get emergencyServicesSubtitle => 'ਐਂਬੂਲੈਂਸ, ਅੱਗ, ਪੁਲਿਸ';
+
+  @override
+  String get familyFriendsTitle => 'ਪਰਿਵਾਰ ਅਤੇ ਦੋਸਤ';
+
+  @override
+  String get familyFriendsSubtitle => 'ਆਪਣੇ ਪਿਆਰਿਆਂ ਦਾ ਵਰਣਨ ਕਰੋ';
+
+  @override
+  String get foodDiningTitle => 'ਭੋਜਨ ਅਤੇ ਡਾਇਨਿੰਗ';
+
+  @override
+  String get foodDiningSubtitle => 'ਆਪਣੇ ਮਨਪਸੰਦ ਭੋਜਨ ਦਾ ਆਰਡਰ ਦਿਓ';
+
+  @override
+  String get greetingsMannersTitle => 'ਸ਼ੁਭਕਾਮਨਾਵਾਂ ਅਤੇ ਸ਼ਿਸ਼ਟਾਚਾਰ';
+
+  @override
+  String get greetingsMannersSubtitle => 'ਹੈਲੋ ਕਹਿਣਾ ਸਿੱਖੋ';
+
+  @override
+  String get schoolEducationTitle => 'ਸਕੂਲ ਅਤੇ ਸਿੱਖਿਆ';
+
+  @override
+  String get schoolEducationSubtitle => 'ਸਿੱਖਿਆ, ਸਕੂਲ ਜਾਣਾ ਅਤੇ ਸਿੱਖਣਾ';
+
+  @override
+  String get travelDirectionsTitle => 'ਯਾਤਰਾ ਅਤੇ ਦਿਸ਼ਾਵਾਂ';
+
+  @override
+  String get travelDirectionsSubtitle => 'ਦਿਸ਼ਾਵਾਂ ਬਾਰੇ ਪੁੱਛੋ';
 
   @override
   String get noLearningTopics => 'ਕੋਈ ਸਿੱਖਣ ਦੇ ਵਿਸ਼ੇ ਉਪਲਬਧ ਨਹੀਂ ਹਨ।';
@@ -684,7 +494,7 @@ class AppLocalizationsPa extends AppLocalizations {
 
   @override
   String leaveGroupConfirm(String groupName) {
-    return 'ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਚਾਹੁੰਦੇ ਹੋ ਕਿ "$groupName" ਨੂੰ ਛੱਡ ਦਿੱਤਾ ਜਾਵੇ?';
+    return 'ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਚਾਹੁੰਦੇ ਹੋ ਕਿ \"$groupName\" ਨੂੰ ਛੱਡ ਦਿੱਤਾ ਜਾਵੇ?';
   }
 
   @override
@@ -698,7 +508,7 @@ class AppLocalizationsPa extends AppLocalizations {
 
   @override
   String deleteGroupConfirm(String groupName) {
-    return 'ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਚਾਹੁੰਦੇ ਹੋ ਕਿ "$groupName" ਨੂੰ ਸਥਾਈ ਤੌਰ \'ਤੇ ਮਿਟਾ ਦਿੱਤਾ ਜਾਵੇ? ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਲਈ ਜਾ ਸਕਦੀ।';
+    return 'ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਚਾਹੁੰਦੇ ਹੋ ਕਿ \"$groupName\" ਨੂੰ ਸਥਾਈ ਤੌਰ \'ਤੇ ਮਿਟਾ ਦਿੱਤਾ ਜਾਵੇ? ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਲਈ ਜਾ ਸਕਦੀ।';
   }
 
   @override
@@ -758,6 +568,15 @@ class AppLocalizationsPa extends AppLocalizations {
   @override
   String get groupNamePrefixError =>
       'ਨਾਮ ਇੱਕ ਸਮਰਥਿਤ ਭਾਸ਼ਾ ਨਾਲ ਸ਼ੁਰੂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ (ਜਿਵੇਂ ਕਿ, \'French Group\')।';
+
+  @override
+  String get groupMottoLabel => 'Group Motto';
+
+  @override
+  String get groupMottoPlaceholder => 'e.g. Learning Spanish is fun';
+
+  @override
+  String get groupMottoLimitError => 'Motto cannot exceed 25 characters';
 
   @override
   String get joinLinguaLeap => 'LinguaLeap ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ';
@@ -828,7 +647,7 @@ class AppLocalizationsPa extends AppLocalizations {
     String topic,
     String language,
   ) {
-    return '$inviterName ਨੇ ਤੁਹਾਨੂੰ $language ਵਿੱਚ "$topic" \'ਤੇ $strength ਮੈਚ ਲਈ ਚੁਣੌਤੀ ਦਿੱਤੀ ਹੈ!';
+    return '$inviterName ਨੇ ਤੁਹਾਨੂੰ $language ਵਿੱਚ \"$topic\" \'ਤੇ $strength ਮੈਚ ਲਈ ਚੁਣੌਤੀ ਦਿੱਤੀ ਹੈ!';
   }
 
   @override
@@ -944,7 +763,7 @@ class AppLocalizationsPa extends AppLocalizations {
 
   @override
   String get prerequisiteRuleDescription =>
-      'ਅਸੀਂ ਖੇਡਣ ਤੋਂ ਪਹਿਲਾਂ ਕਿਸੇ ਵਿਸ਼ੇ ਲਈ "ਲਰਨਿੰਗ ਟ੍ਰੈਕ" ਸਬਕ ਪੂਰੇ ਕਰਨ ਦੀ ਸਿਫਾਰਸ਼ ਕਰਦੇ ਹਾਂ ਤਾਂ ਜੋ ਇਹ ਯਕੀਨੀ ਬਣਾਇਆ ਜਾ ਸਕੇ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਲੋੜੀਂਦੀ ਸ਼ਬਦਾਵਲੀ ਹੈ।';
+      'ਅਸੀਂ ਖੇਡਣ ਤੋਂ ਪਹਿਲਾਂ ਕਿਸੇ ਵਿਸ਼ੇ ਲਈ \"ਲਰਨਿੰਗ ਟ੍ਰੈਕ\" ਸਬਕ ਪੂਰੇ ਕਰਨ ਦੀ ਸਿਫਾਰਸ਼ ਕਰਦੇ ਹਾਂ ਤਾਂ ਜੋ ਇਹ ਯਕੀਨੀ ਬਣਾਇਆ ਜਾ ਸਕੇ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਲੋੜੀਂਦੀ ਸ਼ਬਦਾਵਲੀ ਹੈ।';
 
   @override
   String get difficultyRuleTitle => 'ਮੁਸ਼ਕਲ';
@@ -1108,7 +927,8 @@ class AppLocalizationsPa extends AppLocalizations {
   String get openSettings => 'ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ';
 
   @override
-  String get micPermissionRequired => 'ਵੋਇਸ ਗੇਮ ਖੇਡਣ ਲਈ ਮਾਈਕ੍ਰੋਫੋਨ ਦੀ ਇਜਾਜ਼ਤ ਲੋੜੀਂਦੀ ਹੈ।';
+  String get micPermissionRequired =>
+      'ਵੋਇਸ ਗੇਮ ਖੇਡਣ ਲਈ ਮਾਈਕ੍ਰੋਫੋਨ ਦੀ ਇਜਾਜ਼ਤ ਲੋੜੀਂਦੀ ਹੈ।';
 
   @override
   String get speechNotEnabled => 'ਸਪੀਚ ਸਮਰੱਥ ਨਹੀਂ ਹੈ ਜਾਂ ਪਹਿਲਾਂ ਹੀ ਸੁਣ ਰਹੀ ਹੈ।';
@@ -1117,13 +937,15 @@ class AppLocalizationsPa extends AppLocalizations {
   String get micAlreadyActive => 'ਮਾਈਕ੍ਰੋਫੋਨ ਪਹਿਲਾਂ ਹੀ ਸਰਗਰਮ ਹੈ।';
 
   @override
-  String get speechInitFailed => 'ਸਪੀਚ ਪਛਾਣ ਸ਼ੁਰੂਆਤ ਅਸਫਲ ਰਹੀ ਜਾਂ ਇਜਾਜ਼ਤ ਨਹੀਂ ਦਿੱਤੀ ਗਈ ਸੀ।';
+  String get speechInitFailed =>
+      'ਸਪੀਚ ਪਛਾਣ ਸ਼ੁਰੂਆਤ ਅਸਫਲ ਰਹੀ ਜਾਂ ਇਜਾਜ਼ਤ ਨਹੀਂ ਦਿੱਤੀ ਗਈ ਸੀ।';
 
   @override
   String get gameSessionEnded => 'ਗੇਮ ਸੈਸ਼ਨ ਖਤਮ ਹੋ ਗਿਆ';
 
   @override
-  String get gameSessionEndedDescription => 'ਇਹ ਗੇਮ ਸੈਸ਼ਨ ਰੱਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ ਜਾਂ ਕਿਸੇ ਖਿਡਾਰੀ ਦੁਆਰਾ ਬੰਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ।';
+  String get gameSessionEndedDescription =>
+      'ਇਹ ਗੇਮ ਸੈਸ਼ਨ ਰੱਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ ਜਾਂ ਕਿਸੇ ਖਿਡਾਰੀ ਦੁਆਰਾ ਬੰਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ।';
 
   @override
   String get findNewMatch => 'ਨਵਾਂ ਮੈਚ ਲੱਭੋ';
@@ -1132,7 +954,8 @@ class AppLocalizationsPa extends AppLocalizations {
   String get endGame => 'ਖੇਡ ਖਤਮ ਕਰੀਏ?';
 
   @override
-  String get endGameConfirm => 'ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਇਸ ਸਰਗਰਮ ਖੇਡ ਨੂੰ ਰੱਦ ਕਰ ਦਿੱਤਾ ਜਾਵੇ?';
+  String get endGameConfirm =>
+      'ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਇਸ ਸਰਗਰਮ ਖੇਡ ਨੂੰ ਰੱਦ ਕਰ ਦਿੱਤਾ ਜਾਵੇ?';
 
   @override
   String get keepPlaying => 'ਖੇਡਦੇ ਰਹੋ';
@@ -1184,10 +1007,12 @@ class AppLocalizationsPa extends AppLocalizations {
   }
 
   @override
-  String get indexRequiredError => 'ਇੰਡੈਕਸ ਲੋੜੀਂਦਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਲਿੰਕ ਲਈ ਆਪਣੇ ਕੰਸੋਲ ਦੀ ਜਾਂਚ ਕਰੋ।';
+  String get indexRequiredError =>
+      'ਇੰਡੈਕਸ ਲੋੜੀਂਦਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਲਿੰਕ ਲਈ ਆਪਣੇ ਕੰਸੋਲ ਦੀ ਜਾਂਚ ਕਰੋ।';
 
   @override
-  String get connectionIssueRetrying => 'ਕੁਨੈਕਸ਼ਨ ਸਮੱਸਿਆ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...';
+  String get connectionIssueRetrying =>
+      'ਕੁਨੈਕਸ਼ਨ ਸਮੱਸਿਆ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...';
 
   @override
   String invitationSentTo(String name) {
@@ -1204,7 +1029,8 @@ class AppLocalizationsPa extends AppLocalizations {
   String get preparingGame => 'ਖੇਡ ਤਿਆਰ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...';
 
   @override
-  String get tapProfileToInvite => 'ਵੈੱਬ ਵਿੱਚ ਕਿਸੇ ਪ੍ਰੋਫਾਈਲ \'ਤੇ ਟੈਪ ਕਰੋ ਤਾਂ ਜੋ ਉਹਨਾਂ ਨੂੰ ਸੱਦਾ ਦਿੱਤਾ ਜਾ ਸਕੇ।';
+  String get tapProfileToInvite =>
+      'ਵੈੱਬ ਵਿੱਚ ਕਿਸੇ ਪ੍ਰੋਫਾਈਲ \'ਤੇ ਟੈਪ ਕਰੋ ਤਾਂ ਜੋ ਉਹਨਾਂ ਨੂੰ ਸੱਦਾ ਦਿੱਤਾ ਜਾ ਸਕੇ।';
 
   @override
   String matchmakingTopicFooter(String topic, String strength) {
@@ -1215,7 +1041,8 @@ class AppLocalizationsPa extends AppLocalizations {
   String get forgotPasswordTitle => 'ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ?';
 
   @override
-  String get forgotPasswordDescription => 'ਚਿੰਤਾ ਨਾ ਕਰੋ! ਪਾਸਵਰਡ ਰੀਸੈਟ ਲਿੰਕ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਹੇਠਾਂ ਆਪਣੀ ਈਮੇਲ ਦਰਜ ਕਰੋ।';
+  String get forgotPasswordDescription =>
+      'ਚਿੰਤਾ ਨਾ ਕਰੋ! ਪਾਸਵਰਡ ਰੀਸੈਟ ਲਿੰਕ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਹੇਠਾਂ ਆਪਣੀ ਇਮੇਲ ਦਰਜ ਕਰੋ।';
 
   @override
   String get sendResetLink => 'ਰੀਸੈਟ ਲਿੰਕ ਭੇਜੋ';
@@ -1242,7 +1069,8 @@ class AppLocalizationsPa extends AppLocalizations {
   String get selectLanguageForContent => 'ਸਮੱਗਰੀ ਬਣਾਉਣ ਲਈ ਇੱਕ ਭਾਸ਼ਾ ਚੁਣੋ।';
 
   @override
-  String get setLanguageLevelPrompt => 'ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਆਪਣੇ ਪ੍ਰੋਫਾਈਲ ਤੋਂ ਆਪਣੀ ਭਾਸ਼ਾ ਦਾ ਪੱਧਰ ਸੈੱਟ ਕਰੋ।';
+  String get setLanguageLevelPrompt =>
+      'ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਆਪਣੇ ਪ੍ਰੋਫਾਈਲ ਤੋਂ ਆਪਣੀ ਭਾਸ਼ਾ ਦਾ ਪੱਧਰ ਸੈੱਟ ਕਰੋ।';
 
   @override
   String get generatingQuestions => 'ਤਾਜ਼ਾ ਸਵਾਲ ਪੈਦਾ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ...';
@@ -1251,7 +1079,8 @@ class AppLocalizationsPa extends AppLocalizations {
   String get noQuestionsYet => 'ਅਜੇ ਤੱਕ ਕੋਈ ਸਵਾਲ ਨਹੀਂ ਹਨ';
 
   @override
-  String get noQuestionsFoundDescription => 'ਸਾਨੂੰ ਤੁਹਾਡੇ ਮੌਜੂਦਾ ਪੱਧਰ ਲਈ ਕੋਈ ਸਵਾਲ ਨਹੀਂ ਮਿਲੇ। ਤਾਜ਼ਾ ਸਮੱਗਰੀ ਤਿਆਰ ਕਰਨ ਲਈ ਹੇਠਾਂ ਕਲਿੱਕ ਕਰੋ!';
+  String get noQuestionsFoundDescription =>
+      'ਸਾਨੂੰ ਤੁਹਾਡੇ ਮੌਜੂਦਾ ਪੱਧਰ ਲਈ ਕੋਈ ਸਵਾਲ ਨਹੀਂ ਮਿਲੇ। ਤਾਜ਼ਾ ਸਮੱਗਰੀ ਤਿਆਰ ਕਰਨ ਲਈ ਹੇਠਾਂ ਕਲਿੱਕ ਕਰੋ!';
 
   @override
   String get generateContent => 'ਸਮੱਗਰੀ ਤਿਆਰ ਕਰੋ';
@@ -1274,4 +1103,366 @@ class AppLocalizationsPa extends AppLocalizations {
   String correctAnswerLabel(String answer) {
     return 'ਸਹੀ ਜਵਾਬ: $answer';
   }
+
+  @override
+  String resumeQuizDescription(String lesson) {
+    return 'ਅਸੀਂ $lesson ਲਈ ਤੁਹਾਡੀ ਪ੍ਰਗਤੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰ ਲਿਆ ਹੈ। ਕੀ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ ਜਾਂ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?';
+  }
+
+  @override
+  String get continueQuiz => 'ਕੁਇਜ਼ ਜਾਰੀ ਰੱਖੋ';
+
+  @override
+  String get startOver => 'ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ';
+
+  @override
+  String get levelUpSuccess => 'ਤੁਸੀਂ ਹੁਣੇ ਹੀ ਆਪਣੇ ਹੁਨਰ ਦਾ ਪੱਧਰ ਵਧਾਇਆ ਹੈ!';
+
+  @override
+  String get accuracy => 'ਸ਼ੁੱਧਤਾ';
+
+  @override
+  String get points => 'ਅੰਕ';
+
+  @override
+  String get onboardingTitle1 => 'ਆਪਣਾ ਤਰੀਕਾ ਸਿੱਖੋ';
+
+  @override
+  String get onboardingDesc1 =>
+      'ਇੰਟਰਐਕਟਿਵ ਸੋਲੋ ਕੁਇਜ਼ ਅਤੇ ਵਿਅਕਤੀਗਤ ਸਬਕ ਯੋਜਨਾਵਾਂ ਦੇ ਨਾਲ ਨਵੀਆਂ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਮੁਹਾਰਤ ਹਾਸਲ ਕਰੋ।';
+
+  @override
+  String get onboardingTitle2 => 'ਮਿਲ ਕੇ ਸਿੱਖੋ';
+
+  @override
+  String get onboardingDesc2 =>
+      'ਦੋਸਤਾਂ ਨਾਲ ਅਭਿਆਸ ਕਰਨ ਅਤੇ ਰੀਅਲ-ਟਾਈਮ ਵਿੱਚ ਇੱਕ ਦੂਜੇ ਤੋਂ ਸਿੱਖਣ ਲਈ ਭਾਸ਼ਾ ਸਮੂਹ ਬਣਾਓ ਜਾਂ ਉਹਨਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ।';
+
+  @override
+  String get onboardingTitle3 => 'ਖੇਡੋ ਅਤੇ ਪ੍ਰਗਤੀ ਕਰੋ';
+
+  @override
+  String get onboardingDesc3 =>
+      'AI-ਸੰਚਾਲਿਤ ਵੋਇਸ ਗੇਮਾਂ ਵਿੱਚ ਆਪਣੇ ਦੋਸਤਾਂ ਨੂੰ ਚੁਣੌਤੀ ਦਿਓ ਅਤੇ ਆਪਣੀ ਭਾਸ਼ਾ ਦੀ ਤਾਕਤ ਵਧਦੀ ਦੇਖੋ!';
+
+  @override
+  String get skip => 'ਛੱਡੋ';
+
+  @override
+  String get done => 'ਹੋ ਗਿਆ';
+
+  @override
+  String get next => 'ਅਗਲਾ';
+
+  @override
+  String get home => 'ਹੋਮ';
+
+  @override
+  String get groups => 'ਸਮੂਹ';
+
+  @override
+  String get profile => 'ਪ੍ਰੋਫਾਈਲ';
+
+  @override
+  String get createNewTopic => 'ਨਵਾਂ ਵਿਸ਼ਾ ਬਣਾਓ';
+
+  @override
+  String get topicNameLabel => 'ਵਿਸ਼ੇ ਦਾ ਨਾਮ';
+
+  @override
+  String get learningGoalLabel => 'ਸਿੱਖਣ ਦਾ ਟੀਚਾ';
+
+  @override
+  String get learningGoalHint => 'ਜਿਵੇਂ ਕਿ ਦਫ਼ਤਰੀ ਗੱਲਬਾਤ ਵਿੱਚ ਮੁਹਾਰਤ ਹਾਸਲ ਕਰੋ';
+
+  @override
+  String get customLearning => 'ਕਸਟਮ ਲਰਨਿੰਗ';
+
+  @override
+  String get customLearningSubtitle =>
+      'ਕੋਈ ਵਿਸ਼ਾ ਦਰਜ ਕਰੋ ਜਿਸ ਵਿੱਚ ਤੁਸੀਂ ਮੁਹਾਰਤ ਹਾਸਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਜਾਂ ਹੇਠਾਂ ਸਾਡੇ ਪ੍ਰਮਾਣਿਤ ਸੁਝਾਵਾਂ ਵਿੱਚੋਂ ਇੱਕ ਚੁਣੋ।';
+
+  @override
+  String get topicNameHint => 'ਜਿਵੇਂ ਕਿ, ਵਪਾਰਕ ਕੌਫੀ ਟਾਕ';
+
+  @override
+  String get exploreSuggestions => 'ਸੁਝਾਵਾਂ ਦੀ ਖੋਜ ਕਰੋ';
+
+  @override
+  String get searchTopics => 'ਵਿਸ਼ੇ ਖੋਜੋ...';
+
+  @override
+  String get createTopicButton => 'ਵਿਸ਼ਾ ਬਣਾਓ';
+
+  @override
+  String get pleaseEnterTopicName => 'ਕਿਰਪਾ ਕਰਕੇ ਵਿਸ਼ੇ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ।';
+
+  @override
+  String get pleaseEnterLearningGoal => 'ਕਿਰਪਾ ਕਰਕੇ ਸਿੱਖਣ ਦਾ ਟੀਚਾ ਦਰਜ ਕਰੋ।';
+
+  @override
+  String get learningGoalTooLong =>
+      'ਸਿੱਖਣ ਦਾ ਟੀਚਾ 50 ਅੱਖਰਾਂ ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ।';
+
+  @override
+  String topicCreatedSuccess(String topic) {
+    return 'ਵਿਸ਼ਾ \'$topic\' ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਇਆ ਗਿਆ!';
+  }
+
+  @override
+  String get failedToCreateTopic => 'ਵਿਸ਼ਾ ਬਣਾਉਣ ਵਿੱਚ ਅਸਫਲ।';
+
+  @override
+  String topicSelected(String topic) {
+    return '\'$topic\' ਚੁਣਿਆ ਗਿਆ!';
+  }
+
+  @override
+  String alreadyStudyingTopic(String topic) {
+    return 'ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ \'$topic\' ਦਾ ਅਧਿਐਨ ਕਰ ਰਹੇ ਹੋ। ਤੁਸੀਂ ਕਿਵੇਂ ਅੱਗੇ ਵਧਣਾ ਚਾਹੋਗੇ?';
+  }
+
+  @override
+  String get notifications => 'ਨੋਟੀਫਿਕੇਸ਼ਨ';
+
+  @override
+  String get markAllAsRead => 'ਸਾਰੇ ਪੜ੍ਹੇ ਵਜੋਂ ਮਾਰਕ ਕਰੋ';
+
+  @override
+  String get noNotificationsYet => 'ਅਜੇ ਤੱਕ ਕੋਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਨਹੀਂ ਹੈ';
+
+  @override
+  String get noMissedTopics => 'ਕੋਈ ਛੁੱਟੇ ਹੋਏ ਵਿਸ਼ੇ ਨਹੀਂ ਹਨ';
+
+  @override
+  String get today => 'ਅੱਜ';
+
+  @override
+  String get yesterday => 'ਕੱਲ੍ਹ';
+
+  @override
+  String get newMessage => 'ਨਵਾਂ ਸੁਨੇਹਾ';
+
+  @override
+  String get groupInvitation => 'ਸਮੂਹ ਸੱਦਾ';
+
+  @override
+  String get gameChallenge => 'ਗੇਮ ਚੁਣੌਤੀ';
+
+  @override
+  String get dailyPractice => 'ਰੋਜ਼ਾਨਾ ਅਭਿਆਸ';
+
+  @override
+  String get systemAlert => 'ਸਿਸਟਮ ਅਲਰਟ';
+
+  @override
+  String get dailyLife => 'ਰੋਜ਼ਾਨਾ ਜੀਵਨ';
+
+  @override
+  String get travel => 'ਯਾਤਰਾ';
+
+  @override
+  String get social => 'ਸਮਾਜਿਕ';
+
+  @override
+  String get finance => 'ਵਿੱਤ';
+
+  @override
+  String get health => 'ਸਿਹਤ';
+
+  @override
+  String get noTopicsFound => 'ਅਜੇ ਤੱਕ ਕੋਈ ਵਿਸ਼ਾ ਨਹੀਂ ਮਿਲਿਆ';
+
+  @override
+  String couldNotSaveMessage(String error) {
+    return 'ਸੁਨੇਹਾ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: $error';
+  }
+
+  @override
+  String get copiedToClipboard => 'ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਕੀਤਾ ਗਿਆ!';
+
+  @override
+  String get goPremium => 'ਪ੍ਰੀਮੀਅਮ \'ਤੇ ਜਾਓ';
+
+  @override
+  String get billingUnavailable =>
+      'ਬਿਲਿੰਗ ਸੇਵਾਵਾਂ ਇਸ ਸਮੇਂ ਉਪਲਬਧ ਨਹੀਂ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਸੀਂ purchase_service.dart ਵਿੱਚ ਆਪਣੀਆਂ RevenueCat API ਕੁੰਜੀਆਂ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਹਨ।';
+
+  @override
+  String get purchaseStatus => 'ਖਰੀਦ ਸਥਿਤੀ';
+
+  @override
+  String get purchaseSuccessful => 'ਖਰੀਦ ਸਫਲ ਰਹੀ!';
+
+  @override
+  String get selectLanguages => 'ਭਾਸ਼ਾਵਾਂ ਚੁਣੋ';
+
+  @override
+  String get languagesUpdated => 'Languages updated successfully!';
+
+  @override
+  String languageAdded(String language) {
+    return '\'$language\' added';
+  }
+
+  @override
+  String languageRemoved(String language) {
+    return '\'$language\' removed';
+  }
+
+  @override
+  String get errorLoadingGameState => 'ਐਰਰ ਲੋਡਿੰਗ ਗੇਮ ਸਟੇਟ।';
+
+  @override
+  String get proceedToTopic => 'Proceed To Topic';
+
+  @override
+  String get noLessonsAvailable =>
+      'No lessons available for this topic yet. Click the above refresh button to generate content.';
+
+  @override
+  String get proceedToQuiz => 'proceed to quiz';
+
+  @override
+  String get proceedToClass => 'proceed to class';
+
+  @override
+  String get lessonClassTitle => 'Learning Class';
+
+  @override
+  String get studyMode => 'Study Mode';
+
+  @override
+  String get practiceMode => 'Practice Mode';
+
+  @override
+  String get tapToListen => 'Tap to listen';
+
+  @override
+  String get showTranslation => 'Show Translation';
+
+  @override
+  String get hideTranslation => 'Hide Translation';
+
+  @override
+  String get nextPhrase => 'Next Phrase';
+
+  @override
+  String get previousPhrase => 'Previous Phrase';
+
+  @override
+  String get completeClass => 'Complete Class';
+
+  @override
+  String get classCompleted => 'Class Completed!';
+
+  @override
+  String get classCompletedDesc =>
+      'You\'ve mastered the key phrases for this lesson. Ready for the quiz?';
+
+  @override
+  String get feedbackLegendary => 'Legendary! 🏆';
+
+  @override
+  String get feedbackSpotOn => 'Spot on! 🎯';
+
+  @override
+  String get feedbackBrilliant => 'Brilliant! ✨';
+
+  @override
+  String get feedbackPerfect => 'Perfect! ⭐';
+
+  @override
+  String get feedbackKeepItUp => 'Keep it up! 💪';
+
+  @override
+  String get feedbackNotQuite => 'Not quite... 😕';
+
+  @override
+  String get feedbackOops => 'Oops! 🛑';
+
+  @override
+  String get feedbackAlmostThere => 'Almost there! 🤏';
+
+  @override
+  String get feedbackKeepGoing => 'Keep going! 🔄';
+
+  @override
+  String get feedbackToughOne => 'Tough one! 🧠';
+
+  @override
+  String get feedbackExcellent => 'Excellent! ⭐';
+
+  @override
+  String get feedbackGreatJob => 'Great Job! 👍';
+
+  @override
+  String get feedbackKeepPracticing => 'Keep Practicing! 📚';
+
+  @override
+  String get feedbackNiceEffort => 'Nice Effort! 🌈';
+
+  @override
+  String get knownLanguageWarningTitle => 'Language Warning';
+
+  @override
+  String get knownLanguageWarningDescription =>
+      'The selected language is your known language. Do you want to proceed and still generate content?';
+
+  @override
+  String get knownLanguageWarningEditDescription =>
+      'The selected language is your known language. Do you want to proceed and still add it?';
+
+  @override
+  String get proceed => 'Proceed';
+
+  @override
+  String get noLearningLanguageTitle => 'Learning Language Required';
+
+  @override
+  String get noLearningLanguageMessage =>
+      'You must select at least one learning language to proceed. Please go to settings to choose your languages.';
+
+  @override
+  String get goToSettings => 'Go to Settings';
+
+  @override
+  String get reviewPronunciation => 'Review Pronunciation';
+
+  @override
+  String get turnTimedOut => 'Turn timed out!';
+
+  @override
+  String get freeUserJoinLimit =>
+      'Free users can only join one group. Upgrade for unlimited access!';
+
+  @override
+  String get freeUserAcceptLimit =>
+      'Free users can only join one group. Upgrade to accept more invites!';
+
+  @override
+  String get invitedUserGroupLimit =>
+      'This user is already in a group and cannot be invited (Free Tier limit).';
+
+  @override
+  String get retryInitialization => 'RETRY INITIALIZATION';
+
+  @override
+  String get waitingForHost => 'Waiting for host to start...';
+
+  @override
+  String get holdToStartTurn => 'Hold the mic to start your turn!';
+
+  @override
+  String waitingForDuration(String duration) {
+    return 'You\'ve been waiting for $duration';
+  }
+
+  @override
+  String keptOpponentWaiting(String duration) {
+    return 'You\'ve kept your opponent waiting for $duration';
+  }
+
+  @override
+  String get opponentTranslating => 'Your opponent is translating...';
 }

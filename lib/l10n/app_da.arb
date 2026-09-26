@@ -131,7 +131,7 @@
     "selectLanguagePlaceholder": "Vælg et sprog",
     "groupCreateSuccess": "Gruppen er oprettet!",
     "pleaseSelectLanguage": "Vælg venligst et sprog.",
-    "groupNameSuffixError": "Navnet skal ende med ' Group' (f.eks. 'Spanish Group').",
+    "groupNameSuffixError": "Navnet skal ende med ' Group' (e.g., 'Spanish Group').",
     "languageMismatchError": "Navnet stemmer ikke overens med et understøttet sprog",
     "groupNamePrefixError": "Navnet skal starte med et understøttet sprog (f.eks. 'French Group').",
     "joinLinguaLeap": "Deltag i LinguaLeap",
@@ -182,15 +182,15 @@
     "findMatchRuleTitle": "Find kamp",
     "findMatchRuleDescription": "Udfordr tilfældige modstandere globalt, der er på samme niveau som dig og studerer det samme emne.",
     "friendlyRuleTitle": "Venlig",
-    "friendlyRuleDescription": "Spil direkte med valgte medlemmer fra din nuværende gruppe.",
+    "friendlyRuleDescription": "Spela direkte med valgte medlemmer fra din nuværende gruppe.",
     "scoringRuleTitle": "Point",
     "scoringRuleDescription": "Tjen +10 point for hver korrekt fonetisk match eller nøjagtig oversættelse valideret af AI.",
     "turnsRuleTitle": "Ture",
     "turnsRuleDescription": "Spillere skiftes til at tale. Optag din stemme med mikrofonen for validering i realtid.",
     "prerequisiteRuleTitle": "Forudsætning",
-    "prerequisiteRuleDescription": "Vi anbefaler at gennemføre lektionerne i \"Læringsspor\" for et emne, før du spiller.",
+    "prerequisiteRuleDescription": "Vi anbefaler at gennemføre lektionerne i \"Læringsspor\" for et emne før du spiller.",
     "difficultyRuleTitle": "Sværhedsgrad",
-    "difficultyRuleDescription": "Spillets anmodninger indstilles automatisk baseret på din nuværende sprogstyrke (Begynder, Mellemliggende eller Pro).",
+    "difficultyRuleDescription": "Spillets anmodninger indstilles automatisk baseret på din nuvarande sprogstyrke (Begynder, Mellemliggende eller Pro).",
     "fairplayRuleTitle": "Fairplay",
     "fairplayRuleDescription": "For at holde spillet sjovt og effektivt skal du undgå at bruge eksterne oversættelsesværktøjer eller ordbøger under spillet.",
     "cancellationRuleTitle": "Annullering",
@@ -342,5 +342,25 @@
     "purchaseStatus": "Købsstatus",
     "purchaseSuccessful": "Køb gennemført!",
     "selectLanguages": "Vælg sprog",
-    "errorLoadingGameState": "Fejl ved indlæsning af spiltilstand."
+    "errorLoadingGameState": "Fejl ved indlæsning af spiltilstand.",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

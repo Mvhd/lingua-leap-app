@@ -72,7 +72,7 @@
     "notSet": "Ba a saita ba",
     "editLearningLanguages": "Gyara harsunan koyo",
     "noLanguagesSelectedYet": "Ba a zaɓi harsuna ba tukuna.",
-    "dailyReminders": "Tuna muku koyo kullum",
+    "dailyReminders": "Ihe ncheta mmụta kwa ụbọchị",
     "dailyRemindersSubtitle": "Samun jimlolin gwaji na kullum don darussanka",
     "dailyRemindersEnabled": "An kunna tuna muku na kullum",
     "dailyRemindersDisabled": "An kashe tuna muku na kullum",
@@ -159,7 +159,7 @@
     "globalMatchAwaiting": "Wasan duniya na jira",
     "globalMatchAwaitingSubtitle": "Yi wasa da wani a matakinka cikin harshen {language}.",
     "voiceGameReady": "Wasan murya ya shirya!",
-    "voiceGameReadySubtitle": "Mambobin rukuninka sun fara wasa. Shiga yanzu don samun maki!",
+    "voiceGameReadySubtitle": "Mambobin rukuninka sun fara wasa. Shiga yانتظر الآن لربح النقاط!",
     "joinMatch": "Shiga wasa",
     "friendlyMatchAwaiting": "Wasan abokantaka na jira",
     "friendlyMatchAwaitingSubtitle": "Samun maki +10 ga kowace magana da ka faɗa daidai.",
@@ -190,11 +190,11 @@
     "prerequisiteRuleTitle": "Abin da ake buƙata",
     "prerequisiteRuleDescription": "Muna ba da shawarar ka gama darussan 'Hanyar Koyo' kafin ka fara wasa.",
     "difficultyRuleTitle": "Wahala",
-    "difficultyRuleDescription": "Tambayoyin wasan za su zo ne dangane da matakin harshenka (Farko, Tsakiya, ko Kwararre).",
+    "difficultyRuleDescription": "Tambayoyin wasan za su zo ne dangانه دا matakin harshenka (Farko, Tsakiya, ko Kwararre).",
     "fairplayRuleTitle": "Wasan gaskiya",
     "fairplayRuleDescription": "Domin wasan ya yi daɗi, kada ka yi amfani da na'urar fassara yayin wasa.",
     "cancellationRuleTitle": "Soke wasa",
-    "cancellationRuleDescription": "Kana iya ƙin gayyata ko soke wasa kowane lokaci. Soke wasa zai sa kowa ya daina.",
+    "cancellationRuleDescription": "Kana iya ƙin gayyata ko soke wasa kowane lokaci.",
     "chatTitle": "Hira",
     "liveNow": "Suna kai tsaye:",
     "severalTyping": "Mutane da dama suna rubutu...",
@@ -214,7 +214,7 @@
     "copy": "Kwafo",
     "delete": "Goge",
     "translating": "Ana fassara...",
-    "unknownUser": "Ba a san mai amfani ba",
+    "unknownUser": "Ba a san mai amفاني ba",
     "originalSender": "Wanda ya aiko asali",
     "checking": "ana dubawa...",
     "edited": "(an gyara)",
@@ -257,7 +257,7 @@
     "waitingForResponse": "Ana jiran amsa...",
     "waitingForOpponentToAccept": "Ana jiran {name} ya yarda...",
     "opponentWaitingForYou": "{name} yana jiranka...",
-    "you": "Kai",
+    "you": "Wo",
     "opponent": "Abokin wasa",
     "lookingForPartners": "Ana neman abokan wasan {strength}\ncikin harshen {language}...",
     "indexRequiredError": "Ana buƙatar 'Index'. Da fatan za a duba na'urarka domin samun mahaɗi.",
@@ -293,5 +293,25 @@
     "startOver": "FARA DAGA FARKO",
     "levelUpSuccess": "Yanzu ka ƙara haɓaka fasaharka!",
     "accuracy": "DAIDAI",
-    "points": "MAKI"
+    "points": "MAKI",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

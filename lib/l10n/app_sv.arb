@@ -74,8 +74,8 @@
     "noLanguagesSelectedYet": "Inga språk valda ännu.",
     "dailyReminders": "Dagliga inlärningspåminnelser",
     "dailyRemindersSubtitle": "Få dagliga övningsmeningar för dina ämnen",
-    "dailyRemindersEnabled": "Dagliga påminnelser aktiverade",
-    "dailyRemindersDisabled": "Dagliga påminnelser inaktiverade",
+    "dailyRemindersEnabled": "Dagliga påmindelser aktiverade",
+    "dailyRemindersDisabled": "Dagliga påmindelser inaktiverade",
     "locationDiscoverability": "Platssynlighet",
     "locationDiscoverabilitySubtitle": "Låt andra se din plats i Match Web",
     "locationDiscoverabilityEnabled": "Platssynlighet aktiverad",
@@ -241,7 +241,7 @@
     "micPermissionRequired": "Mikrofontillstånd krävs för att spela röstspelet.",
     "speechNotEnabled": "Tal inte aktiverat eller lyssnar redan.",
     "micAlreadyActive": "Mikrofonen är redan aktiv.",
-    "speechInitFailed": "Initialisering av taligenkänning misslyckades eller tilläts inte.",
+    "speechInitFailed": "Initialisering av taligenkänning mislyckades eller tilläts inte.",
     "gameSessionEnded": "Spelsessionen avslutad",
     "gameSessionEndedDescription": "Denna spelsession har avbrutits eller stängts av en spelare.",
     "findNewMatch": "Hitta ny match",
@@ -264,7 +264,7 @@
     "connectionIssueRetrying": "Anslutningsproblem. Försöker igen...",
     "invitationSentTo": "Inbjudan skickad till {name}!",
     "failedToSendInvitation": "Misslyckades med att skicka inbjudan.",
-    "matchAccepted": "MATCH ACCEPTERAD!",
+    "matchAccepted": "KAMP ACCEPTERAD!",
     "preparingGame": "Förbereder spel...",
     "tapProfileToInvite": "Tryck på en profil på webben för att bjuda in dem.",
     "matchmakingTopicFooter": "Ämne: {topic} • {strength}",
@@ -299,7 +299,7 @@
     "onboardingTitle2": "Lär er tillsammans",
     "onboardingDesc2": "Skapa eller gå med i språkgrupper för att öva med vänner och lära av varandra i realtid.",
     "onboardingTitle3": "Spela & gör framsteg",
-    "onboardingDesc3": "Utmana dina vänner i AI-drivna röstspel och se din språkstyrka växa!",
+    "onboardingDesc3": "Utmana dina vänner i AI-drevne röstspel och se din språkstyrka växa!",
     "skip": "HOPPA ÖVER",
     "done": "KLAR",
     "next": "NÄSTA",
@@ -342,5 +342,25 @@
     "purchaseStatus": "Köpstatus",
     "purchaseSuccessful": "Köp genomfört!",
     "selectLanguages": "Välj språk",
-    "errorLoadingGameState": "Fel vid laddning av spelstatus."
+    "errorLoadingGameState": "Fel vid laddning av spelstatus.",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

@@ -9,6 +9,7 @@ class TranslatedText extends StatelessWidget {
   final TextAlign? textAlign;
   final TextOverflow? overflow;
   final int? maxLines;
+  final bool skipTranslation;
 
   const TranslatedText(
     this.text, {
@@ -17,14 +18,15 @@ class TranslatedText extends StatelessWidget {
     this.textAlign,
     this.overflow,
     this.maxLines,
+    this.skipTranslation = false,
   });
 
   @override
   Widget build(BuildContext context) {
     final localeCode = Provider.of<LocaleProvider>(context).locale.languageCode;
 
-    // If English, just return the text immediately
-    if (localeCode == 'en') {
+    // If English or skipTranslation is true, just return the text immediately
+    if (localeCode == 'en' || skipTranslation) {
       return Text(
         text,
         style: style,

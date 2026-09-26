@@ -152,14 +152,14 @@
     "logIn": "Wọlé",
     "errorTitle": "Àṣìṣe",
     "messageTitle": "Iṣẹ́ ránṣẹ́",
-    "opponentDeclined": "Ẹni tí o fẹ́ bá ṣeré kọ̀ láti ṣeré ní báyìí. Tún dán an wò nígbà mìíràn.",
+    "opponentDeclined": "Ẹni tí o fẹ́ bá ṣeré kọ̀ láti ṣeré ní بáyìí. Tún dán an wò nígbà mìíràn.",
     "globalMatchInvite": "Ìpè láti ṣeré láti ibikíbi!",
     "globalMatchChallengeDetails": "{inviterName} pè é láti ṣeré ipele {strength} lórí \"{topic}\" ní èdè {language}!",
     "acceptChallenge": "Gba ìpè náà",
     "globalMatchAwaiting": "Eré àgbáyé ń dúró",
     "globalMatchAwaitingSubtitle": "Ṣeré pẹ̀lú ẹni tó wà ní ipele rẹ ní èdè {language}.",
     "voiceGameReady": "Eré ohùn ti ṣetán!",
-    "voiceGameReadySubtitle": "Àwọn ọmọ ẹgbẹ́ rẹ ti bẹ̀rẹ̀ eré. Wọlé báyìí láti gba máàkì!",
+    "voiceGameReadySubtitle": "Àwọn ọmọ ẹgbẹ́ rẹ ti bẹ̀rẹ̀ eré. Wọlé بáyìí láti gba máàkì!",
     "joinMatch": "Wọlé sí eré",
     "friendlyMatchAwaiting": "Eré ọ̀rẹ́ ń dúró",
     "friendlyMatchAwaitingSubtitle": "Gba máàkì +10 fún gbólóhùn kọ̀ọ̀kan tí o bá sọ dandan.",
@@ -190,7 +190,7 @@
     "prerequisiteRuleTitle": "Ohun tí a fẹ́",
     "prerequisiteRuleDescription": "A rọ̀ ẹ́ láti parí àwọn ẹ̀kọ́ 'Ọ̀nà Ẹ̀kọ́' kí o tó bẹ̀rẹ̀ sí í ṣeré.",
     "difficultyRuleTitle": "Ipele",
-    "difficultyRuleDescription": "Àwọn ìbéèrè eré yóò wá ní ìbámu pẹ̀lú ipele èdè rẹ (Olùbẹ̀rẹ̀, Àárín, tàbí Ọ̀jògbón).",
+    "difficultyRuleDescription": "Àwọn ìbéèrè eré yóò wá ní ìبámu pẹ̀lú ipele èdè rẹ (Olùbẹ̀rẹ̀, Àárín, tàbí Ọ̀jògbón).",
     "fairplayRuleTitle": "Eré òótọ́",
     "fairplayRuleDescription": "Láti jẹ́ kí eré náà dùn, má ṣe lo ohun èèlò ìtumọ̀ èdè nínú eré.",
     "cancellationRuleTitle": "Fagi lé eré",
@@ -265,7 +265,7 @@
     "invitationSentTo": "A ti fi ìpè ránṣẹ́ sí {name}!",
     "failedToSendInvitation": "A kò lè fi ìpè ránṣẹ́.",
     "matchAccepted": "A TI GBA ÌPÈ NÁÀ!",
-    "preparingGame": "À ń múra eré náà sílẹ̀...",
+    "preparingGame": "À ń múra eré náà síلẹ̀...",
     "tapProfileToInvite": "Tẹ ìrísí ẹni náà lórí ìtàkùn láti pè é.",
     "matchmakingTopicFooter": "Orí-ọ̀rọ̀: {topic} • {strength}",
     "forgotPasswordTitle": "O gbàgbé ọ̀rọ̀ ìsirí rẹ?",
@@ -275,23 +275,43 @@
     "userProfileTitle": "Ìrísí ẹni náà",
     "about": "Nípa rẹ̀",
     "noBioYet": "Ẹni yìí kò tíì kọ ohunkóhun nípa ara rẹ̀.",
-    "loading": "Ó ń rù ú bọ̀...",
+    "loading": "Ó ń rù ú بọ̀...",
     "dismiss": "Yọ ọ́ kúrò",
     "selectLanguageForContent": "Yan èdè tí a óò fi ṣẹ̀dá ẹ̀kọ́ náà.",
     "setLanguageLevelPrompt": "Jọ̀wọ́ bẹ̀rẹ̀ sí í ṣètò ipele èdè rẹ nínú ìrísí rẹ.",
     "generatingQuestions": "À ń ṣẹ̀dá àwọn ìbéèrè tuntun...",
-    "noQuestionsYet": "Kò sí ìbéèrè kankan ní báyìí",
-    "noQuestionsFoundDescription": "A kò rí ìbéèrè kankan fún ipele rẹ ní báyìí. Tẹ ìsàlẹ̀ láti ṣẹ̀dá tuntun!",
+    "noQuestionsYet": "Kò sí ìbéèrè kankan ní بáyìí",
+    "noQuestionsFoundDescription": "A kò rí ìbéèrè kankan fún ipele rẹ ní بáyìí. Tẹ ìsàlẹ̀ láti ṣẹ̀dá tuntun!",
     "generateContent": "ṢẸ̀DÁ Ẹ̀KỌ́",
     "questionProgress": "ÌBÉÈRÈ {index} NÍNÚ {total}",
     "continueLabel": "TẸ̀SÍWÁJÚ",
     "checkAnswer": "YẸ̀ AMSA WÒ",
     "gotItLabel": "MO TI YÉ MI",
     "correctAnswerLabel": "Amsa tó dára: {answer}",
-    "resumeQuizDescription": "A ti fi ibi tí o dúró sí pa mọ́ nínú {lesson}. Ṣé o fẹ́ tẹ̀síwájú tàbí o fẹ́ bẹ̀rẹ̀ láti ìbẹ̀rẹ̀?",
+    "resumeQuizDescription": "A ti fi ibi tí o dúró sí pa mọ́ nínú {lesson}. Ṣé o fẹ́ tẹ̀síwájú tàbí o fẹ́ bẹ̀rẹ̀ láti ìبẹ̀rẹ̀?",
     "continueQuiz": "TẸ̀SÍWÁJÚ NÍNÚ ÌBÉÈRÈ",
     "startOver": "BẸ̀RẸ̀ LÁTI ÌBẸ̀RẸ̀",
-    "levelUpSuccess": "O ti túbọ̀ gbé iṣẹ́ rẹ ga báyìí!",
+    "levelUpSuccess": "O ti túبọ̀ gbé iṣẹ́ rẹ ga بáyìí!",
     "accuracy": "DÁNDAN",
-    "points": "MÁÀKÌ"
+    "points": "MÁÀKÌ",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

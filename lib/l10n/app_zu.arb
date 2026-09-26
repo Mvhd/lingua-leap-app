@@ -236,7 +236,7 @@
     "backToChat": "BUYELA KU-CHAT",
     "playAgain": "DLALA FUTHI",
     "microphonePermission": "Imvume Yemakrofoni",
-    "micPermissionDetailed": "Imvume yemakrofoni iyadingeka ukuze udlale umdlalo wezwi. Sicela uyivule kuzilungiselelo zedivayisi yakho.",
+    "micPermissionDetailed": "Imvume yemakrofoni iyadingeka ukuze udlale umdlalo wezwi. Sicela uyivule kuzilungiselelo dzedivayisi yakho.",
     "openSettings": "Vula Izilungiselelo",
     "micPermissionRequired": "Imvume yemakrofoni iyadingeka ukuze udlale umdlalo wezwi.",
     "speechNotEnabled": "Inkulumo ayivuliwe noma isalalele.",
@@ -293,5 +293,25 @@
     "startOver": "QALA PHANSI",
     "levelUpSuccess": "Usanda kukhuphula amakhono akho!",
     "accuracy": "UKUNEMBA",
-    "points": "AMAPHUZU"
+    "points": "AMAPHUZU",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

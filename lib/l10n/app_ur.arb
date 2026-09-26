@@ -127,13 +127,13 @@
     "memberCount": "{count}/{max} ممبران",
     "freeUserGroupLimit": "مفت صارفین صرف ایک گروپ بنا سکتے ہیں۔ لامحدود گروپس بنانے کے لیے اپ گریڈ کریں!",
     "createGroup": "ایک نیا گروپ بنائیں",
-    "groupNamePlaceholder": "گروپ کا نام مثلاً، فرانسیسی گروپ",
+    "groupNamePlaceholder": "گروپ نام مثلاً، فرانسیسی گروپ",
     "selectLanguagePlaceholder": "ایک زبان منتخب کریں",
     "groupCreateSuccess": "گروپ کامیابی سے بن گیا!",
     "pleaseSelectLanguage": "براہ کرم ایک زبان منتخب کریں۔",
     "groupNameSuffixError": "نام ' Group' پر ختم ہونا چاہیے (مثلاً، 'Spanish Group')۔",
     "languageMismatchError": "سپورٹڈ زبان کے ساتھ نام کا عدم مطابقت",
-    "groupNamePrefixError": "نام ایک سپورٹڈ زبان سے شروع ہونا چاہیے (مثلاً، 'French Group')۔",
+    "groupNamePrefixError": "نام ایک سپورٹڈ زبان سے شروع ہونا چاہیے (مثلاً، 'French Group').",
     "joinLinguaLeap": "LinguaLeap میں شامل ہوں",
     "joinSubtitle": "اپنا سفر شروع کرنے کے لیے اکاؤنٹ بنائیں۔",
     "fullNamePlaceholder": "پورا نام / صارف نام",
@@ -293,5 +293,25 @@
     "startOver": "دوبارہ شروع کریں",
     "levelUpSuccess": "آپ نے ابھی اپنی مہارت کو اپ گریڈ کیا ہے!",
     "accuracy": "درستگی",
-    "points": "پوائنٹس"
+    "points": "پوائنٹس",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }

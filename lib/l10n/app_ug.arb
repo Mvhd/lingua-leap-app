@@ -274,13 +274,13 @@
     "backToLogin": "‹ كىرىشكە قايتىش",
     "userProfileTitle": "ئىشلەتكۈچى ئارخىپى",
     "about": "ھەققىدە",
-    "noBioYet": "تېخى يېزىلمىغان.",
+    "noBioYet": "ئېنى يېزىلمىغان.",
     "loading": "يۈكلىنىۋاتىدۇ...",
     "dismiss": "ياپقۇچ",
     "selectLanguageForContent": "تىل تاللاڭ.",
     "setLanguageLevelPrompt": "ئاۋۋال سەۋىيىڭىزنى بېكىتىڭ.",
     "generatingQuestions": "سوئاللار تەييارلىنىۋاتىدۇ...",
-    "noQuestionsYet": "تېخى سوئال يوق",
+    "noQuestionsYet": "تېھى سوئال يوق",
     "noQuestionsFoundDescription": "سوئال تېپىلمىدى.",
     "generateContent": "دەرس تەييارلاش",
     "questionProgress": "سوئال {index}/{total}",
@@ -320,7 +320,7 @@
     "alreadyStudyingTopic": "بۇنى ئۆگىنىۋاتىسىز.",
     "notifications": "ئەسكەرتىشلەر",
     "markAllAsRead": "ھەممىنى ئوقۇلدى قىلىش",
-    "noNotificationsYet": "تېخى يوق",
+    "noNotificationsYet": "تېھى يوق",
     "noMissedTopics": "قېلىپ قالغان دەرس يوق",
     "today": "بۈگۈن",
     "yesterday": "تۈنۈگۈن",
@@ -334,7 +334,7 @@
     "social": "ئىجتىمائىي",
     "finance": "پۇل-مۇئامىلە",
     "health": "ساغلاملىق",
-    "noTopicsFound": "تېخى تېما تېپىلمىدى",
+    "noTopicsFound": "تېھى تېما تېپىلمىدى",
     "couldNotSaveMessage": "ساقلىغىلى بولمىدى: {error}",
     "copiedToClipboard": "كۆچۈرۈلدى!",
     "goPremium": "Premium غا ئۆتۈش",
@@ -342,5 +342,25 @@
     "purchaseStatus": "سېتىۋېلىش ئەھۋالى",
     "purchaseSuccessful": "مۇۋەپپەقىيەتلىك بولدى!",
     "selectLanguages": "تىللارنى تاللاڭ",
-    "errorLoadingGameState": "خاتالىق كۆرۈلدى."
+    "errorLoadingGameState": "خاتالىق كۆرۈلدى.",
+    "retryInitialization": "RETRY INITIALIZATION",
+    "waitingForHost": "Waiting for host to start...",
+    "holdToStartTurn": "Hold the mic to start your turn!",
+    "waitingForDuration": "You've been waiting for {duration}",
+    "@waitingForDuration": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "keptOpponentWaiting": "You've kept your opponent waiting for {duration}",
+    "@keptOpponentWaiting": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "opponentTranslating": "Your opponent is translating..."
 }
